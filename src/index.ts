@@ -1,6 +1,6 @@
 import * as UCAPI from "./UCAPI"
 import UCEventHandler from "./UCEventHandler"
-import CallController from "./CallController"
+import Calls from "./Calls"
 import { LoginObject } from "./User"
 
 declare global {
@@ -12,7 +12,7 @@ declare global {
     }
 }
 
-export default class UCInterface {
+export default class UCSession {
     private _mySession: UCAPI.Session
     private _userId: string
     private readonly _ucEventHandler: UCEventHandler
@@ -20,7 +20,7 @@ export default class UCInterface {
     /**
      * Use this class instance to control your calls
      */
-    callController: CallController
+    callController: Calls
 
     constructor() {
         this._addEventListeners()
@@ -50,7 +50,7 @@ export default class UCInterface {
 
     private _onLogin = (login: LoginObject): void => {
         this._userId = login.Id
-        this.callController = new CallController(this._mySession, this._userId)
+        this.callController = new Calls(this._mySession, this._userId)
     }
 
     private _addEventListeners(): void {

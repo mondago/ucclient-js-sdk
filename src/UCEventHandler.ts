@@ -1,4 +1,4 @@
-import { CallObject } from "./Call"
+import { CallObject } from "./Calls"
 import { UserObject, LoginObject } from "./User"
 
 type UCEvent = "ucCall" | "ucUser" | "ucLogin"
