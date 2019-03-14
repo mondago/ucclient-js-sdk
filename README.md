@@ -1,4 +1,4 @@
-# UCAPI - SDK
+# UCCLIENT - SDK
 
 UCAPI - SDK is an interface to help you talk to your CTI client from the browser
 
