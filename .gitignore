@@ -2,3 +2,4 @@ dist_cdn
 dist_npm
 node_modules
 *.zip
+releaseflow.txt
