@@ -59,7 +59,7 @@ window.addEventListener("ucLogin", loginEvent => console.log(loginEvent.detail))
 window.addEventListener("ucCall", callEvent => console.log(callEvent.detail))
 ```
 
-## UCCLIENT - SDK Methods
+## Methods
 
 **ucSession.connect()**
 
