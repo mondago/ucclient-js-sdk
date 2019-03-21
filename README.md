@@ -2,9 +2,9 @@
 
 UCCLIENT - SDK is a client side SDK to access the Mondago family of UC desktop products.
 
-## Dependancies
+## Dependencies
 
-Download your software depenancies [here](https://www.gointegrator.co.uk/)
+Download your software dependencies [here](https://www.gointegrator.co.uk/)
 
 ## Features
 
