@@ -147,6 +147,8 @@ Call object, generated on any call event
 
 ### Login
 
+Login event, generated on connection to the socket
+
 ```javascript
 {
    "Type":"Login",
