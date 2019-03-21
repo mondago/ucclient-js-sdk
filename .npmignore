@@ -1,5 +1,8 @@
+config
 src
+dist_cdn
+tsconfig.json
 .gitignore
 .babelrc
 .prettierrc
-tsconfig.json
+.npmignore
