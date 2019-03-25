@@ -26,8 +26,6 @@ Using our released zip (available [here](https://github.com/mondago/ucclient-js-
 <script src="./path/to/ucsdk.js"></script>
 ```
 
-With the zip, you will have to unpack into your project.
-
 ## Importing
 
 Using npm:
