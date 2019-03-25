@@ -4,12 +4,12 @@ UCCLIENT - SDK is a client side SDK to access the Mondago family of UC desktop p
 
 ## Dependencies
 
-Download your software dependencies [here](https://www.gointegrator.co.uk/)
+Download your software dependencies [here](https://gointegrator.com/downloads/software/uk)
 
 ## Features
 
 -   **Monitor login**: check for the start up and login of your desktop client, telling you when you can start using the api
--   **Monitor calls**: see your call events coming in, initial event and updates to your calls.
+-   **Monitor calls**: see your call events coming in, initial event and updates to your calls
 -   **Control handset**: use the api to easily control your active calls and make new calls
 
 ## Installing
@@ -26,7 +26,7 @@ Using our released zip (available [here](https://github.com/mondago/ucclient-js-
 <script src="./path/to/ucsdk.js"></script>
 ```
 
-With the zip, you will have to unpack into your project
+With the zip, you will have to unpack into your project.
 
 ## Importing
 
@@ -50,7 +50,9 @@ const ucSession = new UCSession()
 ucSession.connect()
 ```
 
-Events are communicated using event listeners. To receive an events add event listeners for `"ucLogin"` and `"ucCall"`, the objects shown later are stored in the detail property of the event.
+Events are communicated using event listeners. To receive an event add event listeners for `"ucLogin"` and `"ucCall"`.
+
+The objects, shown later, are stored in the detail property of the event.
 
 Show data:
 
@@ -85,11 +87,11 @@ ucSession.callController.holdCall("call_id_here:0123456789")
 
 ## Objects
 
-Shown below are the objects you may receive and handle
+Shown below are the objects you may receive and handle.
 
 ### Call
 
-Call object, generated on any call event
+Call object, generated on any call event.
 
 ```javascript
 {
@@ -147,7 +149,7 @@ Call object, generated on any call event
 
 ### Login
 
-Login event, generated on connection to the socket
+Login event, generated on connection to the socket.
 
 ```javascript
 {
