@@ -17,7 +17,7 @@ Download your software dependencies [here](https://gointegrator.com/downloads/so
 Using npm:
 
 ```
-$ npm install ucsdk-api
+$ npm install ucclient-sdk
 ```
 
 Using our released zip (available [here](https://github.com/mondago/ucclient-js-sdk/releases/))
