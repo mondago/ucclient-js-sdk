@@ -31,7 +31,7 @@ Using our released zip (available [here](https://github.com/mondago/ucclient-js-
 Using npm:
 
 ```javascript
-import UCSession from "ucsdk-api"
+import UCSession from "ucclient-sdk"
 ```
 
 Using released zip:
