@@ -63,7 +63,7 @@ export default class UCSession {
 
     /**
      * Connect function, starts websocket client and logs user in
-     * 
+     *
      * @returns { void }
      */
     connect(): void {
@@ -71,3 +71,6 @@ export default class UCSession {
         this._mySession.Connect("127.0.0.1:21046")
     }
 }
+
+export { CallObject } from "./Calls"
+export { UserObject, LoginObject } from "./User"
