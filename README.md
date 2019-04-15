@@ -4,13 +4,23 @@ UCCLIENT - SDK is a client side SDK to access the Mondago family of UC desktop p
 
 ## Dependencies
 
-Download your software dependencies [here](https://gointegrator.com/downloads/software/uk)
+To access the API the end user must be running a Mondago UC desktop* product that supports it. Please contact developerprogram@mondago.com if you need to check which products provide the API or any other product related information.
+* A DB / CRM level license is required.
+
+A standalone development client is available [here](https://gointegrator.com/downloads/software/uk)
 
 ## Features
 
--   **Monitor login**: check for the start up and login of your desktop client, telling you when you can start using the api
--   **Monitor calls**: see your call events coming in, initial event and updates to your calls
--   **Control handset**: use the api to easily control your active calls and make new calls
+**Event Listeners** 
+event:"ucLogin"
+- Check for the start up and login of your desktop client, telling you when you can start using the API
+
+event:"ucCall"
+- Call events: ringing, connected, completed, hold, un-hold
+- Call information: caller’s number, dialed number
+
+**Control handset**
+- Call actions: make call, answer, hold, hang-up
 
 ## Installing
 
