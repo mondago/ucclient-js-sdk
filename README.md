@@ -11,7 +11,8 @@ A standalone development client is available [here](https://gointegrator.com/dow
 
 ## Features
 
-**Event Listeners** 
+**Event Listeners**
+
 event:"ucLogin"
 - Check for the start up and login of your desktop client, telling you when you can start using the API
 
@@ -20,7 +21,7 @@ event:"ucCall"
 - Call information: caller’s number, dialed number
 
 **Control handset**
-- Call actions: make call, answer, hold, hang-up
+- Device actions: make call, answer, hold, hang-up
 
 ## Installing
 
