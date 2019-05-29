@@ -15,7 +15,7 @@
         "build:cdn": "webpack --config ./config/webpack.config.prod.cdn.js --mode production",
         "build": "webpack --config ./config/webpack.config.prod.npm.js --mode production",
         "watch": "webpack --watch --config ./config/webpack.config.dev.js --mode development",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "mocha -r ts-node/register -r jsdom-global/register test/**/*.ts"
     },
     "repository": {
         "type": "git",
@@ -29,8 +29,15 @@
         "@babel/preset-env": "^7.1.0",
         "@babel/preset-stage-2": "^7.0.0",
         "@babel/preset-typescript": "^7.1.0",
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.6",
         "babel-loader": "^8.0.4",
+        "chai": "^4.2.0",
+        "jsdom": "^14.0.0",
+        "jsdom-global": "^3.0.2",
+        "mocha": "^6.1.1",
         "ts-loader": "^5.2.1",
+        "ts-node": "^8.0.3",
         "typescript": "^3.1.1",
         "webpack": "^4.20.2",
         "webpack-cli": "^3.1.2",
