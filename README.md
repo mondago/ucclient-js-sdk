@@ -1,6 +1,6 @@
 # UCCLIENT - SDK
 
-UCCLIENT - SDK is a client side SDK to access the Mondago family of UC desktop products.
+UCCLIENT - SDK is a client side SDK to access the Mondago family of UC desktop products. The SDK allows a developer to control the users device through the UC client. This includes actions such as Makecall, Answer, Hangup etc. The API also provides the ability to get call events, which includes the callers phone number. This allows a developer to act on these events.
 
 ## Dependencies
 
