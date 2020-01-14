@@ -33,7 +33,7 @@
         "@types/mocha": "^5.2.7",
         "babel-loader": "^8.0.6",
         "chai": "^4.2.0",
-        "jsdom": "^15.2.1",
+        "jsdom": "^16.0.0",
         "jsdom-global": "^3.0.2",
         "mocha": "^7.0.0",
         "ts-loader": "^6.2.1",
