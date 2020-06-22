@@ -2,6 +2,8 @@
 
 UCCLIENT - SDK is a client side SDK to access the Mondago family of UC desktop products. The SDK allows a developer to control the users device through the UC client. This includes actions such as Makecall, Answer, Hangup etc. The API also provides the ability to get call events, which includes the callers phone number. This allows a developer to act on these events.
 
+For complete examples, see our client examples [repository][1].
+
 ## Dependencies
 
 Download your software dependencies [here](https://gointegrator.com/downloads/software/uk)
@@ -55,8 +57,8 @@ The objects, shown later, are stored in the detail property of the event.
 Show data:
 
 ```javascript
-window.addEventListener("ucLogin", loginEvent => console.log(loginEvent.detail))
-window.addEventListener("ucCall", callEvent => console.log(callEvent.detail))
+window.addEventListener("ucLogin", (loginEvent) => console.log(loginEvent.detail))
+window.addEventListener("ucCall", (callEvent) => console.log(callEvent.detail))
 ```
 
 ## Methods
@@ -184,3 +186,5 @@ Login event, generated on connection to the socket.
    "UserSrc":"LoginUser"
 }
 ```
+
+[1]: https://github.com/mondago/ucclient-sdk-examples
